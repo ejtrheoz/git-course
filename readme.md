@@ -10,6 +10,7 @@ graph LR;
 
 ```
 
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
 ```mermaid
 graph LR;
     markdown["`This **is** _Markdown_`"]
