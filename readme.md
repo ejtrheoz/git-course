@@ -7,9 +7,17 @@ graph LR;
 
 untracked -- "git add" --> staged;
 staged -- "git commit" --> commited/tracked;
+
+```
+
+```mermaid
+graph LR;
+
 staged -- "git restore --staged <file>" --> "cancel changes";
 
 ```
+
+
 
 ```mermaid
 graph LR;
