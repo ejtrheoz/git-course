@@ -7,8 +7,6 @@ graph LR;
 
 untracked -- "git add" --> staged;
 staged -- "git commit" --> commited/tracked;
-staged -- "git restore --staged <file>" --> "cancel changes";
-"requests username/password" -- "git remote set-url origin git@github.com:<user>/<repo>.git" -- "SSH applied";
 
 
 ```
