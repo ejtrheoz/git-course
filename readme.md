@@ -13,14 +13,7 @@ staged -- "git commit" --> commited/tracked;
 ```mermaid
 graph LR;
 
-staged -- "git restore --staged <file>" --> "cancel changes";
+staged -- "git restore" --> "cancel changes";
 
 ```
 
-
-
-```mermaid
-graph LR;
-"requests username/password" -- "git remote set-url origin git@github.com:<user>/<repo>.git" -- "SSH applied";
-
-```
