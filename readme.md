@@ -2,6 +2,8 @@
 
 Crash course Git
 
+some new test text
+
 ```mermaid
 graph LR;
 
